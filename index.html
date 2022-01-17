@@ -23,16 +23,52 @@ height: 100vh;
 width: 100vw;
 }
 
+.navbar{
+            background-color: while;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(20, 19, 19);
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+
    ul{
        float: right;
        list-style-type: none;
    }
    ul li{
        display: inline-block;
+       margin: 10px 20px;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
    ul li a{
        text-decoration: none;
-       color: cornsilk;
+       color: rgb(20, 19, 15);
        padding: 5px 20px;
        border:1px solid #fff;
    }
@@ -70,7 +106,26 @@ width: 100vw;
     position: absolute;
     top: 50%;
 } */
-
+.wrapper .Login{
+    left:40px;
+}
+.wrapper .Login{
+    left: 650px;
+}
+.nav-item li a{
+            /* float:left; */
+            list-style: none; 
+            margin: 13px 20px;
+        }
+        
+h1 {
+color: #1247aa;
+font-family: arial, sans-serif;
+font-size: 22px;
+font-weight: bold;
+margin-top: 128px;
+margin-bottom: 1px;
+}
 
 </style>
 
@@ -83,22 +138,26 @@ width: 100vw;
     </div>
    
     <div class="wrapper">
-        <button class="btn">Register</button>
-    </div>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About us</a>
-        </li>
-       
-      </ul>
-</div>
+        <button class="btn Register">Register</button>
+        <button class="btn Login">Login</button>
 
+    </div>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+   
+</div>
+<div>
+    <h1>Don't be so mean keep <br>your surrounding clean.!</h1>
+</div>
   </body>
 
 </html>
